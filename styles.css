@@ -1,0 +1,184 @@
+/* Main Settings */
+
+:root {
+    --main-bg-color: #eee;
+    --main-gradient: linear-gradient(180deg, #222831 50%, rgba(57, 62, 70, 1) 100%);
+    --sec-gradient: linear-gradient(90deg, rgba(50, 224, 196, 1) 10%, rgba(57, 62, 70, 0) 20%);
+    --main-color: #222831;
+    --sec-color: #393E46;
+    --highlight-color: #32E0C4;
+    --main-font: 'Nunito', 'Roboto', sans-serif;
+    --sec-font: 'Roboto', sans-serif;
+    --header-font: 'Comfortaa', cursive;
+    font-family: var(--main-font);
+    background-color: var(--main-bg-color);
+    color: var(--main-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    min-width: 240px;
+    color: var(--main-bg-color);
+    font-size: 2.5rem;
+    font-family: var(--header-font);
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+
+/* Header */
+
+header {
+    background-color: var(--main-color);
+    background: var(--main-gradient);
+    height: 6rem;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 3px 3px black;
+    padding: 1rem;
+    text-shadow: 2px 2px 2px black;
+}
+
+.cr {
+    color: var(--main-bg-color);
+    position: relative;
+    align-self: flex-start;
+    font-size: .6rem;
+}
+
+.high {
+    background-color: var(--highlight-color);
+}
+
+
+/* Sections */
+
+section {
+    padding: 1.4rem 2rem;
+    background-color: var(--highlight-color);
+    margin: 2rem;
+    border-radius: 10px;
+    background: var(--sec-gradient);
+    width: 1500px;
+}
+
+.content {
+    border-top: 2px solid var(--sec-color);
+    margin: 1.5rem 2rem;
+}
+
+
+/* Colors Section */
+
+.colors {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.color-cont {
+    display: inline-block;
+    text-align: center;
+    margin: 2rem;
+}
+
+.color.title {
+    text-align: center;
+}
+
+.color {
+    height: 4rem;
+    width: 15rem;
+    margin-top: 1rem;
+    border: 1px solid var(--sec-color);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: b;
+}
+
+.background {
+    background-color: var(--main-bg-color);
+}
+
+.main {
+    background-color: var(--main-color);
+    color: var(--main-bg-color);
+}
+
+.sec {
+    background-color: var(--sec-color);
+    color: var(--main-bg-color);
+}
+
+
+/* Fonts Section */
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.comfortaa {
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.roboto {
+    font-family: var(--sec-font);
+}
+
+.fonts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.font-cont {
+    margin: 2rem 4rem;
+}
+
+.font-title {
+    margin-bottom: 1rem;
+}
+
+
+/* Text Styles Section */
+
+.text-styles {
+    display: flex;
+    justify-content: center;
+}
+
+.text-styles h1 {
+    color: var(--main-color);
+}
+
+.styles-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+}
+
+.styles-cont ul {
+    margin-top: 2rem;
+}
